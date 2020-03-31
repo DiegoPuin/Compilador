@@ -1,0 +1,152 @@
+ <Numeral>	#
+ <Reservada include>		include
+ <Operador relacional>	<
+ <Identificador>		conio
+ <Simbolo no definido>
+ <Identificador>		h
+ <Operador relacional>	>
+LINEA 2
+ <Numeral>	#
+ <Reservada include>		include
+ <Operador relacional>	<
+ <Identificador>		stdio
+ <Simbolo no definido>
+ <Identificador>		h
+ <Operador relacional>	>
+LINEA 3
+LINEA 4
+ <Tipo de dato>		int
+ <Reservada main>	main
+ <Parentesis de apertura>	(
+ <Parentesis de cierre>	)
+ <Llave de apertura>	{
+LINEA 5
+ <Tipo de dato>		int
+ <Identificador>		horas
+ <Identificador>		minutos
+ <Identificador>		segundos
+ <Identificador>		total
+ <Punto y coma>	;
+LINEA 6
+LINEA 7
+ <Reservada printf>	printf
+ <Parentesis de apertura>	(
+ <Comillas>		"
+ <Simbolo no definido>
+ <Identificador>		n
+ <Identificador>		Introduzca
+ <Identificador>		horas
+ <Dos puntos>	:
+ <Comillas>		"
+ <Parentesis de cierre>	)
+ <Punto y coma>	;
+LINEA 8
+ <Reservada scan>	scanf
+ <Parentesis de apertura>	(
+ <Comillas>		"
+ <Operador modulo>	%
+ <Identificador>		d
+ <Comillas>		"
+ <Operador logico>	&
+ <Identificador>		horas
+ <Parentesis de cierre>	)
+ <Punto y coma>	;
+LINEA 9
+ <Reservada printf>	printf
+ <Parentesis de apertura>	(
+ <Comillas>		"
+ <Simbolo no definido>
+ <Identificador>		n
+ <Identificador>		Introduzca
+ <Identificador>		minutos
+ <Dos puntos>	:
+ <Comillas>		"
+ <Parentesis de cierre>	)
+ <Punto y coma>	;
+LINEA 10
+ <Reservada scan>	scanf
+ <Parentesis de apertura>	(
+ <Comillas>		"
+ <Operador modulo>	%
+ <Identificador>		d
+ <Comillas>		"
+ <Operador logico>	&
+ <Identificador>		minutos
+ <Parentesis de cierre>	)
+ <Punto y coma>	;
+LINEA 11
+ <Reservada printf>	printf
+ <Parentesis de apertura>	(
+ <Comillas>		"
+ <Simbolo no definido>
+ <Identificador>		n
+ <Identificador>		Introduzca
+ <Identificador>		segundos
+ <Dos puntos>	:
+ <Comillas>		"
+ <Parentesis de cierre>	)
+ <Punto y coma>	;
+LINEA 12
+ <Reservada scan>	scanf
+ <Parentesis de apertura>	(
+ <Comillas>		"
+ <Operador modulo>	%
+ <Identificador>		d
+ <Comillas>		"
+ <Operador logico>	&
+ <Identificador>		segundos
+ <Parentesis de cierre>	)
+ <Punto y coma>	;
+LINEA 13
+LINEA 14
+ <Identificador>		total
+ <Operador igual>	=
+ <Identificador>		horas
+ <Operador multiplicacion>	*
+ <Numero>		3600
+ <Operador suma>	+
+ <Identificador>		minutos
+ <Operador multiplicacion>	*
+ <Numero>		60
+ <Operador suma>	+
+ <Identificador>		segundos
+ <Punto y coma>	;
+LINEA 15
+LINEA 16
+ <Reservada printf>	printf
+ <Parentesis de apertura>	(
+ <Comillas>		"
+ <Simbolo no definido>
+ <Identificador>		n
+ <Identificador>		Desde
+ <Identificador>		las
+ <Numero>		0
+ <Dos puntos>	:
+ <Numero>		0
+ <Dos puntos>	:
+ <Numero>		0
+ <Identificador>		horas
+ <Identificador>		han
+ <Identificador>		pasado
+ <Operador modulo>	%
+ <Identificador>		d
+ <Identificador>		segundos
+ <Simbolo no definido>
+ <Comillas>		"
+ <Identificador>		total
+ <Parentesis de cierre>	)
+ <Punto y coma>	;
+LINEA 17
+LINEA 18
+ <Identificador>		getch
+ <Parentesis de apertura>	(
+ <Parentesis de cierre>	)
+ <Punto y coma>	;
+LINEA 19
+LINEA 20
+ <Reservada return>	return
+ <Numero>		0
+ <Punto y coma>	;
+LINEA 21
+ <Llave de cierre>	}
+Final

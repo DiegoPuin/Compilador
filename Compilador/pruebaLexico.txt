@@ -1,0 +1,27 @@
+ <Tipo de dato>		int
+ <Reservada main>	main
+ <Parentesis de apertura>	(
+ <Parentesis de cierre>	)
+ <Llave de apertura>	{
+LINEA 2
+ <Tipo de dato>		int
+ <Identificador>		a
+ <Punto y coma>	;
+LINEA 3
+ <Reservada if>	if
+ <Parentesis de apertura>	(
+ <Identificador>		a
+ <Operador relacional>	==
+ <Numero>		1
+ <Parentesis de cierre>	)
+ <Llave de apertura>	{
+LINEA 4
+ <Identificador>		b
+ <Operador igual>	=
+ <Numero>		0
+ <Punto y coma>	;
+LINEA 5
+ <Llave de cierre>	}
+LINEA 6
+ <Llave de cierre>	}
+Final
